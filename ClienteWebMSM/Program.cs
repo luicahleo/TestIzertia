@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpClient<ISendMsm, SendMsm>();
 
-var startup = new Startup(builder.Configuration);
+var startup = new Startup(builder.Configuration, builder.Environment);
 
 // Call ConfigureServices before building the application
 startup.ConfigureServices(builder.Services);

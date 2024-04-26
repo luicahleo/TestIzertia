@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\TestIzertia\\ClienteWebMSM\\ClienteWebMSM.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\TestIzertia\\ClienteWebMSM\\ClienteWebMSM.csproj": {}
   },
   "projects": {
-    "G:\\TestIzertia\\ClienteWebMSM\\ClienteWebMSM.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\TestIzertia\\ClienteWebMSM\\ClienteWebMSM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\TestIzertia\\ClienteWebMSM\\ClienteWebMSM.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\TestIzertia\\ClienteWebMSM\\ClienteWebMSM.csproj",
         "projectName": "ClienteWebMSM",
-        "projectPath": "G:\\TestIzertia\\ClienteWebMSM\\ClienteWebMSM.csproj",
-        "packagesPath": "C:\\Users\\luisr\\.nuget\\packages\\",
-        "outputPath": "G:\\TestIzertia\\ClienteWebMSM\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\TestIzertia\\ClienteWebMSM\\ClienteWebMSM.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\TestIzertia\\ClienteWebMSM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\luisr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,6 +61,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

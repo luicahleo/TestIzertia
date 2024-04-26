@@ -5,14 +5,29 @@ namespace ClienteWebMSM;
 public class Startup
 {
     public IConfiguration Configuration { get; }
+    public IWebHostEnvironment Environment { get; }
 
-    public Startup(IConfiguration configuration)
+    public Startup(IConfiguration configuration, IWebHostEnvironment environment)
     {
         Configuration = configuration;
+        Environment = environment;
     }
 
     public void ConfigureServices(IServiceCollection services)
     {
+
+
+        var builder = new ConfigurationBuilder()
+                .SetBasePath(Environment.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
+        if (!Environment.IsProduction())
+        {
+            builder.AddJsonFile("appsettings.Production.json", optional: true, reloadOnChange: true);
+        }
+
+        var x = "";
+
         // Configuración del proxy
         //var proxySettings = Configuration.GetSection("SMSWS").Get<ProxySettings>();
         //if (proxySettings.Enabled)
