@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ySTbzWvmdcGokfUO2qfHmskJz1fEoOmJyts0Vamg68tc3GlBt2VO5gnhoRKy0a3Ccxkfv+m44vV8wRiyGVQsTQ==",
+  "success": true,
+  "projectFilePath": "G:\\TestIzertia\\ClienteWebMSM\\ClienteWebMSM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luisr\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

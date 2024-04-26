@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTestMSM", "ApiTestMSM.csproj", "{DC8917AC-FA2E-4308-BAE1-4A47CF0C8B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteWebMSM", "..\ClienteWebMSM\ClienteWebMSM.csproj", "{5802D028-D604-4478-AAE9-F00216E7D7BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC8917AC-FA2E-4308-BAE1-4A47CF0C8B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8917AC-FA2E-4308-BAE1-4A47CF0C8B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8917AC-FA2E-4308-BAE1-4A47CF0C8B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8917AC-FA2E-4308-BAE1-4A47CF0C8B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5802D028-D604-4478-AAE9-F00216E7D7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5802D028-D604-4478-AAE9-F00216E7D7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5802D028-D604-4478-AAE9-F00216E7D7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5802D028-D604-4478-AAE9-F00216E7D7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAE2341F-753F-4C05-B87D-96EFCF505D2E}
+	EndGlobalSection
+EndGlobal
